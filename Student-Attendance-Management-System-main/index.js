@@ -1,8 +1,4 @@
-
-
 document.querySelector("#form").addEventListener("submit", submitFun);
-
-
 function submitFun(elme) {
     elme.preventDefault();
     username = document.querySelector("#name").value;
